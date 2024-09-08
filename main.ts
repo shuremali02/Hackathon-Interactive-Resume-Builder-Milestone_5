@@ -224,3 +224,10 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
+function Print() {
+    window.print()
+    
+}
+document.querySelector(".dawnload")?.addEventListener("click",()=>{
+     Print()
+    })
